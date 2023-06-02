@@ -6,7 +6,7 @@ on:
       - main
   workflow_dispatch:
 jobs:
-  run-fastscan:
+  run-fastscan:sfe
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
